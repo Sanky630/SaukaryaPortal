@@ -4,7 +4,7 @@
 }
 
 body{
-    background: url('/img/body_bg.png');
+    background: url('body_bg.png');
     background-size:contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
