@@ -1,0 +1,94 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap'); 
+      
+/* body{
+    background-color: #99b1c7;
+}      */
+      
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            background-color: #ea874b; 
+            height: 80px;
+            align-items: center;
+            box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.2);
+
+        }
+        
+        .navbar .logo {
+            float: left;
+            padding: 10px 20px;
+            font-size: 24px; 
+            color: #333; 
+            text-decoration: none;
+        }
+        
+
+        .navbar .nav-links {
+            float: right;
+            margin: 10px 20px;
+        }
+        
+
+        .navbar .nav-links a {
+            font-family: 'Roboto';
+            color: #333;
+            text-decoration: none;
+            padding: 10px 20px; 
+            font-size: 18px;
+            border-radius: 13%;
+            transition: color 0.5s ease;
+        }
+        
+        
+        .navbar .nav-links a:hover {
+            text-decoration: underline;
+            color: antiquewhite;
+
+        }
+
+     
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .text-container {
+            margin-top: 3px;
+            /* background-color: #2196F3; */
+            color: red;
+            font-family: 'Roboto', sans-serif;
+            flex: 1;
+            padding: 20px;
+            padding-top: 100px;
+            padding-bottom: 50px;
+            padding-left: 40px;
+            font-size: 2rem;
+            border-radius: 55px;
+        }
+        
+        
+        .image-container {
+            flex: 1;
+            padding: 20px;
+        }
+ 
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .text-container p{
+            font-family: 'Roboto';
+            font-size: 1.5rem;
+            padding-top: 36px;
+ 
+        }
+
+        .logo img{
+        width: 280px;
+        }

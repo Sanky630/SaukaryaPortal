@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('/img/body_bg.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+.head{
+    display: inline-flex;
+    text-decoration: none;
+
+
+}
+
+ul a li{
+
+    list-style: none;
+    color: black;
+    
+}
+.ex{
+    text-decoration: none;
+}
